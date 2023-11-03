@@ -1,0 +1,50 @@
+html {
+  padding: 0;
+  margin: 0;
+  background: #3a44;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 4px 4px;
+  padding: 15px;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 50px;
+  background: #333333;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.grey {
+  background: #a5a5a5;
+  color: #0b510b;
+}
+
+.orange {
+  background: #ff9f0c;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.row input {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 9px;
+}
