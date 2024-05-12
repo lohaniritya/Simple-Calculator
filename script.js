@@ -11,11 +11,6 @@ Array.from(buttons).forEach(button =>{
       input.value = string;
     }
     
-    else if(e.target.innerHTML== 'X'){
-      string=string.substring(0,string.length-1); 
-      input.value=string;
-    }
-    
     else if(e.target.innerHTML== 'C'){
       string="";
       input.value=string;
@@ -28,3 +23,8 @@ Array.from(buttons).forEach(button =>{
     
   })
 })
+
+function back(){
+  string=string.substring(0,string.length-1);
+  input.value=string;
+}
